@@ -1,0 +1,38 @@
+.ActionsButtons_container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ActionsButtons_container button > * {
+  margin: 0 5px;
+}
+
+.ActionsButtons_container button img {
+  width: 45px;
+}
+
+.ActionsButtons_container button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+  height: auto;
+  width: 240px;
+  border-color: #faad14;
+}
+
+.Button_letters {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Button_letters span:nth-child(1) {
+  font-weight: bold;
+  color: #141414;
+}
+
+.Button_letters span:nth-child(2) {
+  color: rgb(157, 156, 156);
+}

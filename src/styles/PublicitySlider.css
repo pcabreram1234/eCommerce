@@ -1,0 +1,20 @@
+.PublicitySLider_container {
+  padding: 5px;
+  margin: 10px;
+}
+
+.footerItem {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-around !important;
+  height: 400px;
+}
+
+.footerItem img {
+  width: 600px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.footerItem span {
+  font-size: 25px;
+}

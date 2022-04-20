@@ -1,0 +1,14 @@
+.Contacts_container {
+  grid-row: 3 / 3;
+  grid-column: 3 / 5;
+  padding: 10px;
+  justify-self: center;
+  display: flex;
+  width: 95vw;
+  justify-content: space-between;
+}
+
+.left span {
+  margin: 0 10px;
+  font-size: 20px;
+}

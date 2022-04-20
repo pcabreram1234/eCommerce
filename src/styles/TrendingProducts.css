@@ -1,0 +1,20 @@
+.Trending_products_container span:nth-child(1) {
+  font-size: 20px;
+}
+
+.Trending_products {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  align-items: center;
+  justify-items: center;
+}
+
+.Trending_products__text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Trending_products__text a {
+  margin-right: 15px;
+}

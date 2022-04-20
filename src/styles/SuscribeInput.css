@@ -1,0 +1,25 @@
+.SuscribeInput_container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  grid-column: 3 / 5;
+  grid-row: 2 /3;
+  padding: 10px;
+  justify-self: center;
+}
+.SuscribeInput_container span strong {
+  margin: 10px 0;
+}
+
+.SuscribeInpute_actions .ant-input-group input {
+  border-radius: 10px 0 0 10px;
+}
+
+.SuscribeInpute_actions button {
+  border-radius: 0 10px 10px 0;
+}
+
+.SuscribeInpute_actions .ant-input-group {
+  box-shadow: 0px 3px 14px 2px #00000038;
+}

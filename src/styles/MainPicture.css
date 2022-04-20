@@ -1,0 +1,19 @@
+.Product_container {
+  display: grid !important;
+  grid-template-columns: auto auto;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.Product_Image_container img {
+  width: 380px;
+  object-fit: cover;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.Product_info {
+  margin-top: 50px;
+  padding: 10px 0;
+}

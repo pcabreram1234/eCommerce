@@ -1,0 +1,28 @@
+.Menu_container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  padding: 5px 5px;
+}
+
+.Menu_container .ant-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.brandLogo {
+  width: 180px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.Menu_left_icons_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Menu_left_icons_container a span {
+  color: black;
+  font-size: 20px;
+}

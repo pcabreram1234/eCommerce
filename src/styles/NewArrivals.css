@@ -1,0 +1,20 @@
+.NewArrivals__container span:nth-child(1) {
+  font-size: 20px;
+}
+
+.NewArrivasl_Products {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  align-items: center;
+  justify-items: center;
+}
+
+.NewArrivals__text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.NewArrivals__text a {
+  margin-right: 15px;
+}

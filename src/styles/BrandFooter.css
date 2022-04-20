@@ -1,0 +1,19 @@
+.BrandFooter_container {
+  padding: 40px 0;
+}
+
+.BrandFooter_container .ant-typography {
+  margin-left: 12px;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.Brands_icon_container {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Brands_icon_container span {
+  font-size: 40px;
+}
