@@ -25,16 +25,18 @@ To start with the run or execution of the Web you must perform the following ste
 
 ## Desktop Version
 
-![alt](../../pcabreram/Desktop/D1.png)
+
+![D1](https://user-images.githubusercontent.com/77460748/164580203-3c6badcd-5cc2-47ef-a0e7-dbe063f24328.png)
 
 <br>
 
-![alt](../../pcabreram/Desktop/D2.png)
+![D2](https://user-images.githubusercontent.com/77460748/164580224-86038f9c-2657-45b6-90ae-b26771bf90de.png)
 
 <br>
 
-![alt](../../pcabreram/Desktop/D3.png)
+![D3](https://user-images.githubusercontent.com/77460748/164580248-4f1117d7-f686-4fe1-b19b-6c78d5517cf4.png)
 
 ## Mobile Version
 
-![alt](../../pcabreram/Desktop/M1.png)
+![M1](https://user-images.githubusercontent.com/77460748/164580257-06c43b17-ad1b-431c-acdb-82fe3d480f85.png)
+
