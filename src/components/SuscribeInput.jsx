@@ -10,7 +10,7 @@ const SuscribeInput = () => {
       <Text strong>Suscribe our newsletter</Text>
       <div className="SuscribeInpute_actions">
         <Input.Group compact>
-          <Input placeholder="email" style={{ width: "auto" }}></Input>
+          <Input placeholder="pocho@hotmail.com" style={{ width: "auto" }}></Input>
           <Button style={{ background: "#ffc107", color: "#272727" }}>
             Submit
           </Button>

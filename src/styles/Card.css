@@ -7,8 +7,9 @@
   padding: 10px;
   border: 1px solid rgb(171, 171, 171);
   width: 400px;
-  height:100%;
+  height: 100%;
   border-radius: 10px;
+  background: white;
 }
 
 .card_img_container img {
@@ -43,8 +44,8 @@
   justify-content: center;
 }
 
-@media (max-width:950px) {
-  .card{
+@media (max-width: 950px) {
+  .card {
     width: 90%;
     margin: 10px 0;
   }
