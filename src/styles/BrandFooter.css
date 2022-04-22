@@ -17,3 +17,14 @@
 .Brands_icon_container span {
   font-size: 40px;
 }
+
+@media (max-width: 850px) {
+  .BrandFooter_container {
+    text-align: center;
+  }
+
+  .BrandFooter_container > span,
+  .BrandFooter_container > div {
+    margin: 10px 0;
+  }
+}

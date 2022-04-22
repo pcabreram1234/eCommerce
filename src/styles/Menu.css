@@ -1,13 +1,12 @@
 .Menu_container {
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(3, 1fr);
   padding: 5px 5px;
 }
 
 .Menu_container .ant-menu {
-  display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .brandLogo {
@@ -25,4 +24,33 @@
 .Menu_left_icons_container a span {
   color: black;
   font-size: 20px;
+}
+
+@media (max-width: 850px) {
+  .Menu_container {
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .Menu_brand_container {
+    grid-row: 1 / 1;
+    grid-column: 1 / 2;
+    justify-self: center;
+  }
+
+  .Menu_container > div {
+    margin: 10px 0;
+  }
+
+  .Menu_container .ant-menu {
+    display: inline-block;
+    grid-row: 2 / 2;
+    justify-self: center;
+    width: fit-content;
+  }
+
+  .Menu_left_icons_container {
+    grid-row: 1 / 1;
+    grid-column: 2 / 4;
+  }
 }

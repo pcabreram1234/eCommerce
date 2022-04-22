@@ -20,7 +20,7 @@ const PublicitySlider = () => {
     <div className="PublicitySLider_container">
       <Layout>
         <Footer>
-          <Carousel autoplay dotPosition="top">
+          <Carousel autoplay dotPosition="top" effect="fade" centerMode={true}>
             {children}
           </Carousel>
         </Footer>

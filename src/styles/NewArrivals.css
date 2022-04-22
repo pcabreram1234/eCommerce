@@ -15,6 +15,18 @@
   justify-content: space-between;
 }
 
+.NewArrivals__text span {
+  margin-left: 15px;
+}
+
 .NewArrivals__text a {
   margin-right: 15px;
+}
+
+@media (max-width: 850px) {
+  .NewArrivasl_Products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }

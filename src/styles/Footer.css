@@ -43,3 +43,24 @@
 .footer_row span:nth-child(2) {
   margin: 0 2px;
 }
+
+@media (max-width: 850px) {
+  .Footer_container {
+    padding: 10px;
+  }
+
+  .other_informations_container {
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .Footer_col {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .footer_row {
+    margin: 2px 0;
+  }
+}

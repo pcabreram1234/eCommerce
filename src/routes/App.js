@@ -1,5 +1,5 @@
 import React from "react";
-import MainMenu from "../components/Menu";
+import MenuLayout from "../containers/MenuLayout"
 import { Route, BrowserRouter, Switch } from "react-router-dom";
 import useScrollReveal from "../hooks/useScrollReveal";
 import "../../node_modules/antd/dist/antd.css";
@@ -9,7 +9,7 @@ const App = () => {
   useScrollReveal(".Home");
   return (
     <div className="Main__Container">
-      <MainMenu/>
+      <MenuLayout/>
       <BrowserRouter>
         <Switch>
           <Route path="/" children={<Home />} />

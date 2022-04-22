@@ -12,7 +12,7 @@ const MainPicture = () => {
   return (
     <div className="MainPicture_container">
       <div className="Carousel_container">
-        <Carousel arrows={true} autoplay dots dotPosition="bottom">
+        <Carousel arrows={true} /* autoplay */ dots dotPosition="bottom">
           {eCommerceJson.Products.map((Product) => {
             return (
               <div className="Product_container" key={Math.random() * 0.3}>
